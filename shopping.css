@@ -1,0 +1,21 @@
+form{
+    margin: 100px;
+    padding: 20px;
+    background-color:transparent;
+    justify-content: center;
+    width: 60%;
+    border-radius:20px;
+
+}
+body{
+    background-image: url("market.jpg");
+   }
+
+
+button{
+    background-color: lightslategrey;
+    justify-content: center;
+}
+#click{
+    text-align: center;
+}

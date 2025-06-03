@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display:block;
+    background-color:wheat;
+
+
+}
+
+.calendar-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10% 10% 10% 10%;
+    /*background-image: url(calender.jpeg);*/
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image width: 100vh;
+    background-image height:100vh;
+}
+
+.month {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fafafa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.month-name {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.month-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(81, 149, 149);
+}
+
+.month-table th, .month-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.month-table th {
+    background-color: #f4f4f4;
+}
+
+.month-table td:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.first{
+    display: inline;
+}

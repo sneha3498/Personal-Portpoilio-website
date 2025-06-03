@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li> <a href="home.htm">Introduction</a></li>
+            <li><a href="education.htm">Education</a></li>
+            <li><a href="project.htm">Projects</a></li>
+            <li><a href="experience.htm">Experience</a></li>
+            <li><a href="form.htm">Contact</a></li>
+            <li><a href="#admin-section">Login</a></li>
+        </ul>
+    </nav>
+
+    <button id="toggle-theme">Switch Theme</button>
+
+    <div id="box">
+        <form id="login-form">
+            <form id="detailed-form">
+                <ul>
+                    <li><label for="fname">First-Name:</label>
+                        <input type="text" id="fname" name="fname"placeholder="Name" required>
+                    </li><br>
+
+                    <li><label for="lname">Last-Name:</label>
+                        <input type="text" id="lname" name="lname"placeholder="surname"required>
+                    </li><br>
+                    <li><label for="number">Mobile-Number:</label>
+                        <input type="tel" id="number" name="number"placeholder="XXXXXXXXXX" required>
+                    </li><br>
+
+                    <li><label for="e-mail">E-Mail:</label>
+                        <input type="email" id="e-mail" name="e-mail" placeholder="E-Mail Address" required>
+                    </li><br>
+                    <li><label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="password" required>
+                    </li><br>
+
+                    <li><label for="dob">Date Of Birth:</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </li><br>
+
+
+                    <li><label>Gender:</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </li><br>
+
+                    <li><label for="webd">Web-Development:</label>
+                        <input type="checkbox" id="frontend" name="webd" value="Frontend Development">
+                        <label for="frontent">Frontend Development</label>
+                        <input type="checkbox" id="backend" name="webd" value="Backend Development">
+                        <label for="backend">Backend Development</label>
+                        <input type="checkbox" id="database" name="webd" value="Database">
+                        <label for="database">Database</label>
+                    </li><br>
+
+                    <li><label for="service">Services Instered:</label>
+                        <select id="Service" name="Service">
+                            <option value="">SQL</option>
+                            <option value="">Data Anaylist</option>
+                            <option value="">AI-Ml</option>
+                            <option value="">Cyber-Securtiy</option>
+                            <option value="">Robitics</option>
+                            <option value="">Cloud-Computing</option>
+                            <option value="">Software-Development</option>
+                            <option value="">Networking</option>
+                            <option value="">Database Management System</option>
+                            placeholder=""required
+                        </select>
+                    </li><br>
+
+                    <li> <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="your message"required></textarea>
+                    </li>
+                </ul><br>
+                <div id="click">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+    </div>
+    </section>
+
+
+    </main>
+
+</body>
+
+</html>
